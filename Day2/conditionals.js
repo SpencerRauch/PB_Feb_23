@@ -8,8 +8,8 @@ no worries
 */
 var boolean /* interline comment? */ = true; //this is a comment after // 
 
-console.log( 1 == '1') 
-console.log( 1 === '1')
+console.log( 1 == '1') //TRUE double equals attempts type conversion
+console.log( 1 === '1') //FALSE triple equals compares as is
 
 // combining conditions
 
