@@ -19,8 +19,8 @@ function feedTheMonster(food){
     var caloriesConsumed = 0;
 
     for (var i = 0; i < snacksInBag; i++){
-        snacksEaten++;
         caloriesConsumed += food.pop();
+        snacksEaten++;
         //Your additions should go here
     }
     var msg = "The monster ate ";
